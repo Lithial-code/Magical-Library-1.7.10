@@ -21,7 +21,6 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.MathHelper;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
-import com.lithial.me.enchantments.Enchantments;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 
@@ -75,7 +74,7 @@ public class EffectHandler {
 						Entity target = itr.next();
 						if(target instanceof EntityLivingBase)
 						{
-							((EntityLivingBase)target).addPotionEffect(new PotionEffect(Potion.wither.id, (Enchantments.witherAOETimer *20), 6));
+							((EntityLivingBase)target).addPotionEffect(new PotionEffect(Potion.wither.id, (6 *20), 6));
 
 						}
 						if(target instanceof EntityItem)

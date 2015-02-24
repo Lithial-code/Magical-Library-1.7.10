@@ -45,11 +45,7 @@ public class MagicBooks {
 		BookofEclipse = new ItemBookofEclipse();
 		BookofWithering= new ItemBookofWithering();
 		BookoftheHarvest = new ItemBookofHarvest();
-		int entityID = EntityRegistry.findGlobalUniqueEntityId();
-		
-		EntityRegistry.registerModEntity(EntitySummonSkeleton.class, "SummonSkeleton", entityID, this, 80, 3, true);
-		EntityList.addMapping(EntitySummonSkeleton.class, "SummonSkeleton", entityID, 0x918354, 0x695D37);
-	}
+	 }
 
 	@EventHandler
 	public void Initiate(FMLInitializationEvent Event) 
