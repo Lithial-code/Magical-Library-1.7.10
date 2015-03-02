@@ -9,7 +9,7 @@
 !/*.gradle
 !/*.md
 !Autoupload.jar
-!release-management.sh
+!release-managment.sh
 .gradle
 gitlog-to-changelog
 CHANGELOG 
