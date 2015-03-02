@@ -8,6 +8,8 @@
 !/lib
 !/*.gradle
 !/*.md
+!/autoupload.jar
+!/releasemanagement.sh
 .gradle
 gitlog-to-changelog
 CHANGELOG 
